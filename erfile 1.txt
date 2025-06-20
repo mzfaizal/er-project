@@ -1,0 +1,99 @@
+<bank>
+    <branches>
+        <branch>
+            <branch_id>1</branch_id>
+            <branch_name>Main Branch</branch_name>
+            <address>123 Main Street, Coimbatore</address>
+            <phone>0422-123456</phone>
+        </branch>
+        <branch>
+            <branch_id>2</branch_id>
+            <branch_name>North Branch</branch_name>
+            <address>456 North Street, Chennai</address>
+            <phone>044-789456</phone>
+        </branch>
+    </branches>
+
+    <customers>
+        <customer>
+            <customer_id>1</customer_id>
+            <first_name>Ravi</first_name>
+            <last_name>Kumar</last_name>
+            <date_of_birth>1995-07-10</date_of_birth>
+            <email>ravi.kumar@example.com</email>
+            <phone_number>9876543210</phone_number>
+            <address>Coimbatore</address>
+        </customer>
+        <customer>
+            <customer_id>2</customer_id>
+            <first_name>Anita</first_name>
+            <last_name>Sharma</last_name>
+            <date_of_birth>1990-02-15</date_of_birth>
+            <email>anita.sharma@example.com</email>
+            <phone_number>9812345678</phone_number>
+            <address>Chennai</address>
+        </customer>
+    </customers>
+
+    <accounts>
+        <account>
+            <account_id>1</account_id>
+            <customer_id>1</customer_id>
+            <account_type>Savings</account_type>
+            <balance>15000.00</balance>
+            <branch_id>1</branch_id>
+            <status>ACTIVE</status>
+        </account>
+        <account>
+            <account_id>2</account_id>
+            <customer_id>2</customer_id>
+            <account_type>Current</account_type>
+            <balance>25000.00</balance>
+            <branch_id>2</branch_id>
+            <status>ACTIVE</status>
+        </account>
+    </accounts>
+
+    <transactions>
+        <transaction>
+            <transaction_id>1</transaction_id>
+            <account_id>1</account_id>
+            <transaction_type>Deposit</transaction_type>
+            <amount>5000.00</amount>
+            <description>Initial deposit</description>
+        </transaction>
+        <transaction>
+            <transaction_id>2</transaction_id>
+            <account_id>1</account_id>
+            <transaction_type>Withdrawal</transaction_type>
+            <amount>2000.00</amount>
+            <description>ATM withdrawal</description>
+        </transaction>
+        <transaction>
+            <transaction_id>3</transaction_id>
+            <account_id>2</account_id>
+            <transaction_type>Deposit</transaction_type>
+            <amount>10000.00</amount>
+            <description>Salary credited</description>
+        </transaction>
+    </transactions>
+
+    <employees>
+        <employee>
+            <employee_id>1</employee_id>
+            <first_name>Suresh</first_name>
+            <last_name>Iyer</last_name>
+            <branch_id>1</branch_id>
+            <role>Manager</role>
+            <email>suresh.iyer@bank.com</email>
+        </employee>
+        <employee>
+            <employee_id>2</employee_id>
+            <first_name>Priya</first_name>
+            <last_name>Das</last_name>
+            <branch_id>2</branch_id>
+            <role>Clerk</role>
+            <email>priya.das@bank.com</email>
+        </employee>
+    </employees>
+</bank>
